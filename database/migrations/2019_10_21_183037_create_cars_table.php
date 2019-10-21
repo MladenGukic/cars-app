@@ -18,6 +18,7 @@ class CreateCarsTable extends Migration
             $table->string('title');
             $table->string('producer');
             $table->integer('number_of_doors');
+            $table->timestamps();
         });
     }
 
